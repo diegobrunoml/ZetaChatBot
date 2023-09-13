@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(223, 223, 223);
+    display: flex;
+    margin: 0px;
+}
+
+#main-title{
+    font-size: 1.6rem;
+    display: inline;
+    margin-right: 11px;
+}
+
+#beta-version-text{
+    font-size: 0.83rem;
+    color: rgb(0, 255, 136);
+    display: inline;
+}
+
+#main-texts-container{
+    display: flex;
+    align-items: center;
+}
+
+#lateral{
+    width: 20vw;
+    height: 100vh;
+    padding-left: 1.4vw;
+    padding-top: 2.8vh;
+    background-color: white;
+}
+
+#main{
+    width: 74vw;
+    height: 88vh;
+    background-color: white;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 88% 2vw auto;
+    grid-template-areas: "."
+    "p"
+    ".";
+    justify-content: center;
+}
+
+#main-container{
+    width: 84vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#prompt-container{
+    width: 100%;
+    grid-area: p;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-prompt{
+    width: 87%;
+    height: 4.5vh;
+    border-radius: 10px;
+    border: 1px solid rgb(129, 129, 129);
+    color: rgb(37, 37, 37);
+    margin-right: 10px;
+}
+
+i{
+    color: rgb(127, 127, 127);
+    height: 4.5vh;
+    font-size: 1.7rem;
+    text-align: center;
+}
